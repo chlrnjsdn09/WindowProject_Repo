@@ -16,4 +16,6 @@ public:
 
 	void HLine();
 	void VLine();
+
+	void Render();
 };

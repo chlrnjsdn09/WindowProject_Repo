@@ -42,7 +42,7 @@
     <ClInclude Include="Line.h">
       <Filter>클래스</Filter>
     </ClInclude>
-    <ClInclude Include="Polygon.h">
+    <ClInclude Include="Shape.h">
       <Filter>클래스</Filter>
     </ClInclude>
     <ClInclude Include="Triangle.h">
@@ -65,7 +65,7 @@
     <ClCompile Include="Line.cpp">
       <Filter>클래스</Filter>
     </ClCompile>
-    <ClCompile Include="Polygon.cpp">
+    <ClCompile Include="Shape.cpp">
       <Filter>클래스</Filter>
     </ClCompile>
     <ClCompile Include="Triangle.cpp">

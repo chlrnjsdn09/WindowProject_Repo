@@ -153,10 +153,15 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         Line hLine(h1, h2);
         hLine.HLine();
 
-        Dot h3(hdc, 50, 100, RGB(255, 0, 0));
-        Dot h4(hdc, 250, 100, RGB(255, 0, 0));
-        Line hLine(h1, h2);
-        hLine.HLine();
+        Dot h3(hdc, 260, 110, RGB(255, 0, 0));
+        Dot h4(hdc, 260, 310, RGB(255, 0, 0));
+        Line hLine(h3, h4);
+        hLine.VLine();
+
+        Dot h5(hdc, 270, 110, RGB(255, 0, 0));
+        Dot h6(hdc, 370, 310, RGB(255, 0, 0));
+        Line hLine(h5, h6);
+        hLine.Render();
 
         Dot p1(hdc, 50, 110, RGB(0, 0, 255));
         Dot p2(hdc, 250, 110, RGB(0, 0, 255));
@@ -164,6 +169,20 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         Dot p4(hdc, 50, 310, RGB(0, 0, 255));
         Box box(p1, p2, p3, p4);
         box.Render();
+
+        Dot a(hdc, 50, 320, RGB(0, 255, 0));
+        Dot b(hdc, 250, 520, RGB(0, 255, 0));
+        Dot c(hdc, 50, 520, RGB(0, 255, 0));
+        Triangle tri(a, b, c);
+        tri.Render();
+
+        Shape pentagon;
+        pentagon.AddDot(Dot(hdc, 400, 320, RGB(0, 255, 255)));
+        pentagon.AddDot(Dot(hdc, 450, 90, RGB(0, 255, 255)));
+        pentagon.AddDot(Dot(hdc, 430, 420, RGB(0, 255, 255)));
+        pentagon.AddDot(Dot(hdc, 370, 420, RGB(0, 255, 255)));
+        pentagon.AddDot(Dot(hdc, 350, 90, RGB(0, 255, 255)));
+        pentagon.Render();
 
         EndPaint(hWnd, &ps);
     }
