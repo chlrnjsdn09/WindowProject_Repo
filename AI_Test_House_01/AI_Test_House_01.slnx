@@ -4,4 +4,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="AI_Test_House_01.vcxproj" Id="e4f72c49-5809-4563-b3c2-1e7f989496c9" />
+  <Project Path="AI_Test_Common\AI_Test_Common.shproj" Id="E0B3E687-2D03-4C77-B26B-656EC332580C" />
 </Solution>

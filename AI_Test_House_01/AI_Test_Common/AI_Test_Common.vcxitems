@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{E0B3E687-2D03-4C77-B26B-656EC332580C}</ItemsProjectGuid>
+    <ItemsProjectName>AI_Test_Common</ItemsProjectName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Box.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Circle.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Dot.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Line.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shape.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Triangle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Box.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Circle.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Dot.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Line.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Shape.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Triangle.cpp" />
+  </ItemGroup>
+</Project>

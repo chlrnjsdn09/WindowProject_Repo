@@ -33,22 +33,7 @@
     <ClInclude Include="pch.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Box.h">
-      <Filter>클래스</Filter>
-    </ClInclude>
-    <ClInclude Include="Dot.h">
-      <Filter>클래스</Filter>
-    </ClInclude>
     <ClInclude Include="House.h">
-      <Filter>클래스</Filter>
-    </ClInclude>
-    <ClInclude Include="Line.h">
-      <Filter>클래스</Filter>
-    </ClInclude>
-    <ClInclude Include="Shape.h">
-      <Filter>클래스</Filter>
-    </ClInclude>
-    <ClInclude Include="Triangle.h">
       <Filter>클래스</Filter>
     </ClInclude>
   </ItemGroup>
@@ -59,22 +44,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Box.cpp">
-      <Filter>클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="Dot.cpp">
-      <Filter>클래스</Filter>
-    </ClCompile>
     <ClCompile Include="House.cpp">
-      <Filter>클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="Line.cpp">
-      <Filter>클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="Shape.cpp">
-      <Filter>클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="Triangle.cpp">
       <Filter>클래스</Filter>
     </ClCompile>
   </ItemGroup>

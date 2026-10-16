@@ -14,6 +14,7 @@
 #include "Box.h"
 #include "Shape.h"
 #include "Triangle.h"
+#include "Circle.h"
 #include "House.h"
 
 #endif //PCH_H
