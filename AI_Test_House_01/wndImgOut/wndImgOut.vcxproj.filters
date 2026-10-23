@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WndSystem">
+      <UniqueIdentifier>{87cceb76-98ec-4613-b655-857a29d1acc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proc">
+      <UniqueIdentifier>{30c0ba73-72f7-418c-8433-9770579ca2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{4372A704-73E4-4FB5-9B07-E3191F454D6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{fc122b98-d7cc-42e4-80d7-c1cbf3794e04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wndImgOut.h">
+      <Filter>WndSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWnd.h">
+      <Filter>WndSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutProc.h">
+      <Filter>Proc</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProc.h">
+      <Filter>Proc</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Dot.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="RectShape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wndImgOut.cpp">
+      <Filter>WndSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWnd.cpp">
+      <Filter>WndSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutProc.cpp">
+      <Filter>Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProc.cpp">
+      <Filter>Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Dot.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="RectShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="House.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wndImgOut.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="wndImgOut.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

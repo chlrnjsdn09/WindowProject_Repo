@@ -9,44 +9,68 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="클래스">
+      <UniqueIdentifier>{b1b5cfba-4e45-4621-bb97-e23a2021bf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="클래스\헤더 파일">
+      <UniqueIdentifier>{85127191-78b4-4ff0-8c0d-d89588ab49b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="클래스\소스 파일">
+      <UniqueIdentifier>{ae06729e-b02a-430a-bc97-8078c5db1071}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Box.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>클래스\헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)Circle.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>클래스\헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)Dot.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>클래스\헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)Line.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>클래스\헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)Shape.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>클래스\헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)Triangle.h">
+      <Filter>클래스\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)targetver.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)Box.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>클래스\소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)Circle.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>클래스\소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)Dot.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>클래스\소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)Line.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>클래스\소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)Shape.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>클래스\소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)Triangle.cpp">
+      <Filter>클래스\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

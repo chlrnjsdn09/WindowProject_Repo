@@ -1,5 +1,4 @@
 #include "pch.h"
-#include "Dot.h"
 
 Dot::Dot()
 {

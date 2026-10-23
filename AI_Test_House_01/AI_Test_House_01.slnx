@@ -3,6 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="../windowWorkspace/windowWorkspace.vcxproj" Id="90e9c134-6af4-4295-96f7-ecd314968640" />
+  <Project Path="AI_Test_Common/AI_Test_Common.vcxitems" Id="e0b3e687-2d03-4c77-b26b-656ec332580c" />
   <Project Path="AI_Test_House_01.vcxproj" Id="e4f72c49-5809-4563-b3c2-1e7f989496c9" />
-  <Project Path="AI_Test_Common\AI_Test_Common.shproj" Id="E0B3E687-2D03-4C77-B26B-656EC332580C" />
+  <Project Path="wndImgOut/wndImgOut.vcxproj" Id="d644c08f-45b6-433e-a008-e54573f53d65" />
 </Solution>

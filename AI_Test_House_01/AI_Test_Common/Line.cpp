@@ -1,5 +1,4 @@
-#include "pch.h"
-#include "Line.h"
+﻿#include "pch.h"
 #include <algorithm>
 
 Line::Line()
@@ -73,7 +72,6 @@ void Line::Render()
 	int sx = (x1 < x2) ? 1 : -1;
 	int sy = (y1 < y2) ? 1 : -1;
 
-	//
 	int err = dx - dy;
 
 	while (true)

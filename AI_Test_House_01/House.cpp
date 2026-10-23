@@ -1,4 +1,4 @@
-#include "pch.h"
+﻿#include "pch.h"
 #include "House.h"
 
 // 기준선: 집 바닥 = 585, 지면 = 585

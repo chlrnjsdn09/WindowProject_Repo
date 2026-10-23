@@ -1,5 +1,4 @@
 #include "pch.h"
-#include "Triangle.h"
 
 Triangle::Triangle()
 {
