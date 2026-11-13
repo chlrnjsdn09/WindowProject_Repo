@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="../AnimationProject_261113/AnimationProject_261113.vcxproj" Id="44588808-2a0a-46df-afd4-9591aa759b61" />
   <Project Path="../windowWorkspace/windowWorkspace.vcxproj" Id="90e9c134-6af4-4295-96f7-ecd314968640" />
   <Project Path="AI_Test_Common/AI_Test_Common.vcxitems" Id="e0b3e687-2d03-4c77-b26b-656ec332580c" />
   <Project Path="AI_Test_House_01.vcxproj" Id="e4f72c49-5809-4563-b3c2-1e7f989496c9" />
